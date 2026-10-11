@@ -40,7 +40,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 import droid_emotion as de                       # noqa: E402
-from droid_synth import render_patch, SR         # noqa: E402
+from droid_synth import render_patch             # noqa: E402
 
 CALIBRATE = os.path.join(HERE, "droid-calibrate")
 SERVICES = os.path.dirname(HERE)                 # .../system/services

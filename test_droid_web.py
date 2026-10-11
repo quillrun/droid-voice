@@ -29,7 +29,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
     sys.path.insert(0, HERE)
 
-from dvoice import cases as C        # noqa: E402
 from dvoice import emotion as de     # noqa: E402
 from dvoice import reward as R       # noqa: E402
 from dvoice import sessions          # noqa: E402

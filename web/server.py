@@ -30,7 +30,6 @@ import re
 import sys
 import uuid
 from collections import OrderedDict
-from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
 
@@ -47,7 +46,6 @@ from dvoice import emotion as de     # noqa: E402
 from dvoice import reward as R       # noqa: E402
 from dvoice import versions          # noqa: E402
 from dvoice import store             # noqa: E402
-from dvoice import sessions          # noqa: E402
 from dvoice import phrasebook as pb  # noqa: E402
 from dvoice import lexicon as lex    # noqa: E402
 from droid_synth import render_patch, SR   # noqa: E402
